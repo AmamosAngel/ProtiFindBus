@@ -1,0 +1,217 @@
+/* ... estilos existentes ... */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.config-header {
+   background: #2e7d32;
+   color: white;
+   padding: 20px;
+   margin: 0;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1000;
+}
+
+.config-header h1 {
+   margin: 0;
+   font-size: 15px;
+   font-weight: 400;
+   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.config-content {
+   padding: 80px 20px 20px;
+   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.config-section {
+   margin-bottom: 30px;
+}
+
+.config-section h2 {
+   color: #666;
+   font-size: 14px;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+   margin: 0 0 15px 0;
+}
+
+.config-item {
+   display: flex;
+   align-items: center;
+   padding: 15px;
+   background: white;
+   border-radius: 12px;
+   margin-bottom: 10px;
+   text-decoration: none;
+   color: #333;
+   border: none;
+   width: 100%;
+   text-align: left;
+   cursor: pointer;
+   transition: background-color 0.2s;
+}
+
+.config-item:hover {
+   background: #f5f5f5;
+}
+
+.config-item i:first-child {
+   font-size: 20px;
+   color: #2e7d32;
+   margin-right: 15px;
+   width: 24px;
+   text-align: center;
+}
+
+.config-item.danger i:first-child {
+   color: #dc3545;
+}
+
+.config-item-info {
+   flex: 1;
+}
+
+.config-item-info span {
+   display: block;
+   font-size: 16px;
+   font-weight: 500;
+   margin-bottom: 2px;
+}
+
+.config-item-info small {
+   color: #666;
+   font-size: 13px;
+}
+
+.config-item i:last-child {
+   color: #999;
+   font-size: 14px;
+}
+
+/* Estilos para o formulário */
+.form-content {
+   padding: 80px 20px 20px;
+   max-width: 400px;
+   margin: 0 auto;
+}
+
+.form-group {
+   margin-bottom: 20px;
+}
+
+.form-group label {
+   display: block;
+   margin-bottom: 8px;
+   color: #333;
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.form-group input {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   font-size: 16px;
+   transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+   border-color: #2e7d32;
+   outline: none;
+}
+
+.btn-primary {
+   background: #2e7d32;
+   color: white;
+   border: none;
+   padding: 14px 20px;
+   border-radius: 8px;
+   font-size: 16px;
+   font-weight: 500;
+   width: 100%;
+   cursor: pointer;
+   transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+   background: #266a2b;
+}
+
+.modal {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 1000;
+}
+
+.modal-content {
+   background-color: white;
+   margin: 15% auto;
+   padding: 20px;
+   border-radius: 8px;
+   width: 90%;
+   max-width: 400px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h2 {
+   margin-top: 0;
+   color: #333;
+   font-size: 1.5rem;
+   margin-bottom: 15px;
+}
+
+.modal-content p {
+   margin-bottom: 15px;
+   color: #666;
+}
+
+.modal-content input {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   font-size: 16px;
+}
+
+.modal-buttons {
+   display: flex;
+   justify-content: flex-end;
+   gap: 10px;
+}
+
+.modal-buttons button {
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 14px;
+}
+
+#btnConfirmar {
+   background-color: #d32f2f;
+   color: white;
+}
+
+#btnCancelar {
+   background-color: #666;
+   color: white;
+}
+
+#btnConfirmar:hover {
+   background-color: #b71c1c;
+}
+
+#btnCancelar:hover {
+   background-color: #555;
+}
